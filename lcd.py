@@ -20,7 +20,7 @@ def wait_for_lcd():
         print("Found LCD Display")
     if 0x77 in i2c_devices:
         print("Found BMP180 Sensor")
-    return I2cLcd(config.i2c, 0x27, 2, 16)
+    return I2cLcd(config.i2c, 0x27, 4, 20)
 
 
 lcd = wait_for_lcd()
