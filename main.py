@@ -19,7 +19,7 @@ data = {
     "status": "Dry",
     "switch": "On",
     "value": 0,
-    "values": [0] * 10, # ten zeros in this list
+    "values": [0] * 100, # ten zeros in this list
 }
 
 
